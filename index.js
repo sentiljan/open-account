@@ -22,7 +22,6 @@ var phone;
 var password;
 var withdrawPassword ;
 var agentAccount = null;
-var PORT = process.env.port || 5500
 
 // View Engine Setup
 app.set("views", path.join(__dirname))
@@ -91,8 +90,5 @@ app.post("/CreateAccount", urlencodedParser, async function(req,res){
 
 });
 
-app.listen(PORT, function(error){
-	if(error) throw error
-	console.log("Server created Successfully on PORT", PORT)
-})
+app.listen(){};
 
