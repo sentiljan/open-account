@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="shortcut icon" type="image/jpg" href="https://financialresearchpros.com/wp-content/themes/website-theme/images/upload/fav.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/styles.css" type="text/css"/>
+</head>
+<body>
+    <main>
+        <div class="register-containter">
+            <div class="register-form">
+                <h1>Open your account</h1>
+
+                <form action="/CreateAccount" method="POST">
+                    <input type="text" name="name" placeholder="Name" required> <br>
+                    <input type="text" name="lastName" placeholder="Last Name" required> <br>
+                    <input type="email" name="email" placeholder="Email" required> <br>
+                    <input type="tel" name="phone" placeholder="Phone number" required> <br>
+                    <input type="password" name="password" placeholder="Password" required> <br>
+                    <input type="password" name="withdrawPassword" placeholder="Withdraw Password" required> <br>
+                    <input type="submit" value="Open account">
+                </form>
+            </div>
+        </div>
+    </main>
+	    <footer class="footer">
+            <div class="main-footer">
+                <div class="row main-footer">
+                    <div class="col footer-menu">
+                       <ul>
+                           <li>
+                               <a href="https://financialresearchpros.com/chart-analysis/">Analysis</a>
+                           </li>
+                           <li>
+                               <a href="https://financialresearchpros.com/ebooks/">E-Books</a>
+                           </li>
+                           <li>
+                               <a href="https://financialresearchpros.com/signals/">Signals</a>
+                           </li>
+                           <li>
+                               <a href="https://financialresearchpros.com/courses/">Courses</a>
+                           </li>
+                           <li>
+                               <a href="https://financialresearchpros.com/about-us/">About Us</a>
+                           </li>
+                           <li>
+                               <a href="https://financialresearchpros.com/pricing/">Pricing</a>
+                           </li>
+                       </ul>
+                    </div>
+
+                    <div class="col contact">
+                        <h3>CONTACT US</h3>
+                        <div class="contact-address">
+                            <h4>Address:</h4>
+                            <p>27 Old Gloucester Street, London,WC1N 3AX</p>
+                        </div>
+                        <div>
+                            <h4>Telephone:</h4>
+                            <p><a href="tel:(+44) 793 043 0878">(+44) 793 043 0878</a></p>
+                        </div>
+                        <div>
+                            <h4>Email:</h4>
+                            <p><a href="mailto:support@financialresearchpros.com">support@financialresearchpros.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="col info">
+
+                        <h3>PLEASE BE ADVISED</h3>
+                        <p>
+                        This website is operated by Fin-Deal. The Content has been prepared by fin-deal for general information and educational purposes only. We introduce people to the world of currency trading and provide educational content to help them learn how to become profitable traders. Financial products are complex, entail risk of loss, may rise and fall, and are impacted by a range of market and economic factors and you should always obtain professional advice to ensure trading or investing in such products is suitable for your circumstances and ensure you obtain, read and understand any applicable offer document.
+                        <br><br>Fin-deal.com is owned by Western Meridian LTD, registration no 12053545.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
+
+p, span{
+    font-weight: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+.register-containter{
+    margin: auto;
+    background-image:url("https://financialresearchpros.com/wp-content/themes/website-theme/images/hp-contact-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 2em;
+    max-width: 100%;
+    text-align: center;
+}
+
+.register-form{
+    margin: auto;
+    max-width: 550px;
+    background: #fff;
+    padding: 1.5em;
+    border-radius: 12px;
+}
+
+.register-form h1{
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.register-form form input {
+    max-width: 100%;
+    width: 450px;
+    margin: 0.5rem 0;
+    padding: 0.5em;
+    border-radius: 5px;
+    background: #fff;
+    border-width: 1px;
+    border-color: #e0e0e0;
+    border-style: solid;
+    box-shadow: none;
+    color: #7b7b7b;
+    font-size: 14px;
+}
+
+.main-footer {
+    padding: 2rem;
+    background: #1f1f1f;
+    max-width: 100%;
+}
+
+.main-footer h3, h4, p, span{
+    color: #fff;
+}
+
+.main-footer .info p{
+    font-size: 13px;
+    padding-top: 1.5em;
+}
+
+.main-footer h3{
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.main-footer h4{
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.main-footer .contact p{
+    font-size: 13px;
+}
+
+.main-footer .contact .contact-address{
+    margin-top: 1.5em;
+}
+
+ .main-footer a{
+    color: #fff;
+ }
+
+.main-footer .footer-menu li{
+    margin-bottom: 1em;
+}
+
+.main-footer .footer-menu li a:hover{
+    color: #4f6df5;
+}
